@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="projectstyle.css" />
+    <link rel="stylesheet" href="general.css" />
+</head>
+<body>
+    <!-- HEADER with Solid Navbar -->
+    <header class="grace-header">
+        <div class="navbar">
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="images/paintingwater.jpg">
+                <div class="content">
+                    <div class="author">Took 45 minutes to make </div>
+                    <div class="title">Painting</div>
+                    <div class="topic">Waterfall</div>
+                    <div class="des">
+                        <!-- description  -->
+                        I remember when i was applying for carleton I needed more projects to show my creative ability. So in order to show my creative ability, i decided to paint somthing to show efficentsy and skill. 
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ceramics.jpg">
+                <div class="content">
+                    <div class="author">Took 2 weeks</div>
+                    <div class="title">Ceramics</div>
+                    <div class="topic">Japanese Shrin</div>
+                    <div class="des">
+                        <!-- description  -->
+                        The ceramics peice I constructed in highschool for my grade 11 final assignment. I wanted to do somthing bigger then normal but made it very difficult for the kiln to process. it can 1) either come out completely fine. 2) crack and break. or 3) most commonly with peices this big it can expload and break all the other peices in it. It actually cracked in the kilnl becuasse it was too big. but my teacher trusted me to do sucha big peice but there was a lot of presure on me not to destroy the peices people had been working on for the whole semester.... before the kiln you have to let it dry enough to the point its completely solid after sculpting. a trick is to put it in the same room as the kiln to make it dry faster. but if it dries too fast it can crack that way too.
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/preceramics.jpg">
+                <div class="content">
+                    <div class="author">Took about 3 months</div>
+                    <div class="title">Pre Kiln Ceramic</div>
+                    <div class="topic">Cenery Peice</div>
+                    <div class="des">
+                        <!-- description  -->
+                        This was what I made in grade 12. I wasnt too pleased with this peice since It was more somthing to practice texture with that I just heppened to make into a peice. I didnt have the final picture on my phone so this was all i could show.
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/welding.jpg">
+                <div class="content">
+                    <div class="author">took 5 minutes</div>
+                    <div class="title">Welding</div>
+                    <div class="topic">Experimenting</div>
+                    <div class="des">
+                        <!-- description  -->
+                        in the summer I was about to go in grade 11 i took a summer school course at queens univercity for introduction in AI mecatronics and robotics and future AI. during this time we got to use their labs and try some welding. As not so grate at it is i was (not to brag) but the best in the class.  :)
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/rock.jpg">
+                <div class="content">
+                    <div class="author">took about 2 hours</div>
+                    <div class="title">Rock Painting</div>
+                    <div class="topic">Lake Painting</div>
+                    <div class="des">
+                        <!-- description  -->
+                        This one made me take layering into perspective. I had to start with the backround since when I draw I noramlly start with the main event. In this case that would be the trees in the front. Its not too interesting but was quite eye opening in my art history to where I am tofay. 
+                    </div>
+                   
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="images/paintingwater.jpg">
+                <div class="content">
+                    <div class="title">Waterfall</div>
+                    <div class="description">Painting</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ceramics.jpg">
+                <div class="content">
+                    <div class="title">Japanese Shrine</div>
+                    <div class="description">Ceramics</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/preceramics.jpg">
+                <div class="content">
+                    <div class="title">Bridge</div>
+                    <div class="description">Ceramics</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/welding.jpg">
+                <div class="content">
+                    <div class="title">Experiment</div>
+                    <div class="description">Welding</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/rock.jpg">
+                <div class="content">
+                    <div class="title">Lake Painting</div>
+                    <div class="description">Rock</div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+
+
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+
+
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+     <!-- FOOTER -->
+    <footer class="footer">
+        <h6>About me </h6>
+        <p>Fun Fact: in different citys in japan theres different ways of speaking. Not a different language but different ways of saying things. I want to learn as much as i can for when i Visit.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
